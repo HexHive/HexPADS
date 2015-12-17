@@ -32,10 +32,10 @@ src/ directory.
 
 Keep ./src/hexpads running in a terminal. In a second terminal, enter the
 ./test directory and run any of the following attacks:
-$ ./test.sh CAIN
-$ ./test.sh C6
-$ ./test.sh CSC
-$ ./test.sh rowhammer
+> $ ./test.sh CAIN
+> $ ./test.sh C6
+> $ ./test.sh CSC
+> $ ./test.sh rowhammer
 
 Depending on the mitigation you have selected you need to take special measures
 to kill the test process. E.g., with SIGSTOP you have to kill the corresponding
