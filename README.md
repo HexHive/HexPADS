@@ -30,7 +30,8 @@ Mathias Payer <mathias.payer@nebelwelt.net>
 ## Installation
 
 Adjust src/hexpads.h to select a specific mitigation and then ''make'' in the 
-src/ directory.
+src/ directory. Compilation was tested with clang and gcc on Ubuntu 15.04 and
+15.10 on x86-64.
 
 
 ## Test
