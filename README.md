@@ -41,3 +41,8 @@ Depending on the mitigation you have selected you need to take special measures
 to kill the test process. E.g., with SIGSTOP you have to kill the corresponding
 process from another terminal as it was stopped on the current screen.
 
+
+## Notes
+
+Performance monitoring is generally not available inside virtual machines,
+therefore HexPADS must be run on bare metal.
