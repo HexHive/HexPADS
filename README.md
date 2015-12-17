@@ -22,6 +22,11 @@ processes.
 See the paper for more details: http://hexhive.github.io/publications
 
 
+## Author
+
+Mathias Payer <mathias.payer@nebelwelt.net>
+
+
 ## Installation
 
 Adjust src/hexpads.h to select a specific mitigation and then ''make'' in the 
@@ -38,6 +43,11 @@ $ ./test.sh C6
 $ ./test.sh CSC
 $ ./test.sh rowhammer
 ```
+
+CAIN was developed by Antonio Barresi, C6 by Clementine Maurice, CSC by Daniel
+Grauss, and rowhammer by P0 at Google. The source code of their software can be
+found in their repositories. The test directory contains pre-compiled versions
+for x86-64 on Ubuntu 15.10.
 
 Depending on the mitigation you have selected you need to take special measures
 to kill the test process. E.g., with SIGSTOP you have to kill the corresponding
