@@ -30,8 +30,11 @@ Mathias Payer <mathias.payer@nebelwelt.net>
 ## Installation
 
 Adjust src/hexpads.h to select a specific mitigation and then ''make'' in the 
-src/ directory. Compilation was tested with clang and gcc on Ubuntu 15.04 and
-15.10 on x86-64.
+src/ directory. Compilation was tested with clang and gcc on x86-64 Ubuntu
+15.04, and Ubuntu 15.10, and Debian 8.0 Jessie. The current Makefile is
+configured for clang 3.6 but gcc and other clang versions should produce the
+same results. The source code relies on an installed build system (apt-get
+install build-essential llvm).
 
 
 ## Test
